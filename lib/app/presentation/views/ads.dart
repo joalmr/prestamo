@@ -7,7 +7,9 @@ class AdsView extends StatelessWidget {
 
   final BannerAd banner = BannerAd(
     size: AdSize.banner,
-    adUnitId: "ca-app-pub-4377454783493553/6279911547",
+    adUnitId: "ca-app-pub-4377454783493553/6982619129",
+    //produccion banner: ca-app-pub-4377454783493553/6982619129
+    //prueba banner: ca-app-pub-3940256099942544/6300978111
     request: AdRequest(),
     listener: BannerAdListener(
       onAdLoaded: (ad) => print("Ad loaded"),
@@ -20,6 +22,7 @@ class AdsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    banner.load();
     return SafeArea(
       child: Scaffold(
         body: Column(
