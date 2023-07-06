@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:prestamo/app/presentation/logic/calcule.dart';
 import 'package:prestamo/app/presentation/views/home/home.dart';
 import 'package:prestamo/src/styles/colors/colors.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   runApp(MainApp());
 }
 

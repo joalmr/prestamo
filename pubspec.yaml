@@ -13,6 +13,7 @@ dependencies:
   easy_mask: ^2.0.1
   easy_rich_text: ^2.0.0
   fl_chart: ^0.63.0
+  google_mobile_ads: ^3.0.0
   intl: ^0.18.1
 
 dev_dependencies:
