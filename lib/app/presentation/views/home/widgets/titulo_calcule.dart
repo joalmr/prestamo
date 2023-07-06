@@ -10,7 +10,7 @@ class TituloCalcule extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Text(
-          "Calcula",
+          "Simula",
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
