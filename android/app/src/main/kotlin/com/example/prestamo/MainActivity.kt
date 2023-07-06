@@ -1,4 +1,4 @@
-package com.joalmr.prestamo
+package com.aedev.prestamo
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
       calculeLogic: calculeLogic,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Hipoteca',
+        title: 'Préstamo',
         theme: ThemeData(
           useMaterial3: true,
           brightness: Brightness.light,

@@ -26,7 +26,7 @@ class HomeView extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        "Calcula el",
+                        "Simula las",
                         style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
@@ -34,7 +34,7 @@ class HomeView extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "costo real de",
+                        "cuotas de",
                         style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,

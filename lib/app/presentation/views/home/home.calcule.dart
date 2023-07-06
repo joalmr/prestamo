@@ -21,14 +21,14 @@ class _CalculeViewState extends State<CalculeView> {
 
   final money = TextInputMask(
     mask: '9+,999,999.99',
-    placeholder: '0',
+    placeholder: '',
     maxPlaceHolders: 3,
     reverse: true,
     maxLength: 14,
   );
   final interes = TextInputMask(
     mask: '9+.99',
-    placeholder: '0',
+    placeholder: '',
     maxPlaceHolders: 3,
     reverse: true,
     maxLength: 5,
@@ -67,7 +67,7 @@ class _CalculeViewState extends State<CalculeView> {
                       padding: EdgeInsets.only(top: 18),
                       child: GestureDetector(
                         child: TextFormInput(
-                          labelText: "Tasa de interés",
+                          labelText: "Tasa de interés anual",
                           controller: interesCtr,
                           keyboardType: TextInputType.number,
                           inputFormatters: [

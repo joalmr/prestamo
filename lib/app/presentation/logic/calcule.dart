@@ -31,7 +31,7 @@ class CalculeLogic extends ChangeNotifier {
     num formB = pow((1 + tem), periodo) - 1;
 
     //cuota
-    resCuota = formA / formB;
+    resCuota = interes == 0 ? monto / periodo : formA / formB;
     //pago total
     resPagoTotal = resCuota * (periodo);
     //interes total
