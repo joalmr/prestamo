@@ -1,15 +1,19 @@
 # Préstamo
 
+<picture>
+  <img alt="Funciones" src="/assets/photos/funciones.png">
+</picture>
+
 ## Pantallas
 <picture>
-  <img alt="" src="/assets/photos/prestamo1.jpeg" height="350px">
+  <img alt="Funciones" src="/assets/photos/prestamo1.png" height="350px">
 </picture>
 <picture>
-  <img alt="" src="/assets/photos/prestamo2.jpeg" height="350px">
+  <img alt="Funciones" src="/assets/photos/prestamo2.png" height="350px">
 </picture>
 <picture>
-  <img alt="" src="/assets/photos/prestamo3.jpeg" height="350px">
+  <img alt="Funciones" src="/assets/photos/prestamo3.png" height="350px">
 </picture>
 <picture>
-  <img alt="" src="/assets/photos/prestamo4.jpeg" height="350px">
+  <img alt="Funciones" src="/assets/photos/prestamo4.png" height="350px">
 </picture>
