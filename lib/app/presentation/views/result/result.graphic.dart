@@ -2,7 +2,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:prestamo/app/presentation/views/result/widgets/detalle_grafico.dart';
 import 'package:prestamo/main.dart';
-import 'package:prestamo/src/styles/colors/colors.dart';
+import 'package:prestamo/config/styles/colors/colors.dart';
 
 class GraphicView extends StatelessWidget {
   const GraphicView({super.key});

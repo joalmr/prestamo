@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:prestamo/app/presentation/views/ads.dart';
 import 'package:prestamo/app/presentation/views/result/result.graphic.dart';
 import 'package:prestamo/app/presentation/views/result/result.resume.dart';
-import 'package:prestamo/src/styles/colors/colors.dart';
+import 'package:prestamo/config/styles/colors/colors.dart';
 
 class ResultView extends StatefulWidget {
   ResultView({super.key});

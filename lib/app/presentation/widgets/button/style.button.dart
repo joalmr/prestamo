@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prestamo/src/styles/colors/colors.dart';
+import 'package:prestamo/config/styles/colors/colors.dart';
 
 final BorderRadius _borderRadiusBtn = BorderRadius.circular(5);
 
