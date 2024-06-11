@@ -2,7 +2,7 @@ import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:prestamo/app/presentation/views/home/home.calcule.dart';
 import 'package:prestamo/app/presentation/widgets/button/primary.button.dart';
-import 'package:prestamo/src/styles/colors/colors.dart';
+import 'package:prestamo/config/styles/colors/colors.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

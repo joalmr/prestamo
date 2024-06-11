@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:prestamo/app/presentation/logic/calcule.dart';
+import 'package:prestamo/app/domain/calcule.dart';
 import 'package:prestamo/app/presentation/views/home/home.dart';
-import 'package:prestamo/src/styles/colors/colors.dart';
+import 'package:prestamo/config/styles/colors/colors.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
